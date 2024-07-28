@@ -41,3 +41,6 @@ app.post('/api/formsubmission', async (req, res) => {
     await connectDB();
     console.log(`Server is running on ${port}`);
   });
+
+
+  module.exports = app;
