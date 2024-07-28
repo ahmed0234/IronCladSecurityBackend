@@ -12,6 +12,7 @@ app.use(express.urlencoded({ extended: false }));
 
 
 app.post('/api/formsubmission', async (req, res) => {
+  await connectDB();
     const { fullName, phone, email,subject,message, } = req.body;
     try {
       const newFormData = new FormData({

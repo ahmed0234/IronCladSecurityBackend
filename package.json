@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "bun --watch server.js"
+    "dev": "bun --watch ./api/index.js"
   },
   "keywords": [],
   "author": "",
