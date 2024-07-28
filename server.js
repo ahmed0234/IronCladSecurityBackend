@@ -1,5 +1,4 @@
 import express from 'express'
-import cors from 'cors';
 const connectDB = require('./db.js');
 const FormData = require('./model.js');
 require('dotenv').config();
