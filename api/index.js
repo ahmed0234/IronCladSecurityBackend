@@ -1,6 +1,6 @@
-import express from 'express'
-const connectDB = require('./db.js');
-const FormData = require('./model.js');
+const express = require("express")
+const connectDB = require('../db.js');
+const FormData = require('../model.js');
 require('dotenv').config();
 const app = express()
 const port = 3000
